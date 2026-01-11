@@ -17,7 +17,7 @@ pipeline {
         
         // 4. BASE_URL (사진에 있는 URL)
         string(name: 'BASE_URL', 
-               defaultValue: 'https://nplm.krlcspilot.com/polarion/rest/v1', 
+               defaultValue: 'http://3.35.188.230/polarion/rest/v1', 
                description: 'Polarion REST API URL', 
                trim: true)
         
