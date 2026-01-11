@@ -5,7 +5,7 @@ pipeline {
     parameters {
         // 1. POLARION_TOKEN (사진에 있는 긴 토큰 값)
         string(name: 'POLARION_TOKEN', 
-               defaultValue: 'eyJraWQiOiIyMDljOGNlNS0wYTAwODNkZS0yMzhlZjBjYy04NDNhMDM5NCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJhZG1pbiIsImlkIjoiYWFjMWIxMWUtMGEwMDA5YWYtMmI0ZTI5ZDQtZmFjMTdhMjkiLCJleHAiOjE3NzMxNTQ4MDAsImlhdCI6MTc2ODA5NjM3OX0.ONS_D1V7g0d-Oqzmk81kzj0sDdbApHyVQqkTlfnZ8yD197NpL3O1Huv2ogmbrtQF8kjNg2mXl7KTdaORiw2QR-zpH8uX3WDHgxRRA2w4UMV_-7e2moVy4l6rOzBPeMP5JP6txKo-eK7N0x7fnNdosXIdAPFr0VVIKIxRKCHmjy9u5kGCHRS5kJAYBXFuIgMWpVop7b0xbVUnimwOzqSCh7LcuiG_JwiNpy2zotNmLNWUEtdM_917T8alpxFFPp3K0HPLOWMB3fvCyJoVx8fubPtNpmpuRI8I-O2YEOgPKkp5hpGQsfyBPU6Q2Fq5ZTt_7kZXHUkSihrzv9cucQmASg, 
+               defaultValue: 'eyJraWQiOiIyMDljOGNlNS0wYTAwODNkZS0yMzhlZjBjYy04NDNhMDM5NCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJhZG1pbiIsImlkIjoiYWFjMWIxMWUtMGEwMDA5YWYtMmI0ZTI5ZDQtZmFjMTdhMjkiLCJleHAiOjE3NzMxNTQ4MDAsImlhdCI6MTc2ODA5NjM3OX0.ONS_D1V7g0d-Oqzmk81kzj0sDdbApHyVQqkTlfnZ8yD197NpL3O1Huv2ogmbrtQF8kjNg2mXl7KTdaORiw2QR-zpH8uX3WDHgxRRA2w4UMV_-7e2moVy4l6rOzBPeMP5JP6txKo-eK7N0x7fnNdosXIdAPFr0VVIKIxRKCHmjy9u5kGCHRS5kJAYBXFuIgMWpVop7b0xbVUnimwOzqSCh7LcuiG_JwiNpy2zotNmLNWUEtdM_917T8alpxFFPp3K0HPLOWMB3fvCyJoVx8fubPtNpmpuRI8I-O2YEOgPKkp5hpGQsfyBPU6Q2Fq5ZTt_7kZXHUkSihrzv9cucQmASg', 
                description: 'Polarion Access Token', 
                trim: true)
         
